@@ -7,24 +7,23 @@ const About = () => {
   return (
     <section className='flex flex-col md:flex-row w-full h-screen bg-gradient-to-l from-slate-950  via-cyan-950 to-gray-950'>
       <div className='flex flex-col items-center justify-start w-full pt-6 mx-auto px-20'>
-        <h1 className='text-6xl text-neutral-500'>About Me</h1>
+        <h1 className='text-5xl text-neutral-500'>About Me</h1>
 
         {/* Card */}
-        <LoadReveal duration={2} delay={2}>
-          <Link
-            href='#'
-            className='relative block overflow-hidden rounded-lg border bg-slate-700  border-gray-100 p-4 mt-10 sm:p-6 lg:p-8'
+        <LoadReveal duration={2} delay={1}>
+          <div
+            className='relative block overflow-hidden rounded-lg border bg-slate-900 bg-opacity-30  border-gray-100 p-4 mt-10 sm:p-6 lg:p-8'
           >
             <span className='absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600'></span>
 
             <div className='sm:flex sm:justify-between sm:gap-4'>
               <div>
-                <h3 className='text-lg font-bold text-gray-900 sm:text-xl'>
-                  Web Developer
+                <h3 className='text-lg font-bold text-red-400 sm:text-xl'>
+                  Name Name
                 </h3>
 
                 <p className='mt-1 text-xs font-medium text-gray-600'>
-                  By John Doe
+                  Web Developer
                 </p>
               </div>
 
@@ -40,13 +39,11 @@ const About = () => {
             </div>
 
             <div className='mt-4'>
-              <p className='max-w-[40ch] text-sm text-gray-500'>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. At
-                velit illum provident a, ipsa maiores deleniti consectetur nobis
-                et eaque.
+              <p className='max-w-[40ch] text-sm text-gray-300'>
+                Aspiring Self-Taught web developer, actively learning ReactJS and NextJS. 
               </p>
             </div>
-          </Link>
+          </div>
         </LoadReveal>
       </div>
     </section>
