@@ -4,7 +4,7 @@ import React from 'react';
 
 const Projects = () => {
   return (
-    <section className='grid grid-cols-1 lg:grid-cols-3 gap-6 mx-20 lg:mx-auto max-w-5xl py-20'>
+    <section className='grid grid-cols-1 lg:grid-cols-3 gap-6 mx-5 lg:mx-auto max-w-5xl py-20'>
       <div className=' bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'>
         <Link href='#'>
           <Image
