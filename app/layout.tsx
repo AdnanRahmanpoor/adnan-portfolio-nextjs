@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang='en'>
       <SmoothScrolling>
         <body
-          className={`${inter.className} bg-[url(/background.jpg)] bg-cover bg-fixed`}
+          className={`${inter.className} bg-[url(/background.jpg)] bg-cover bg-no-repeat bg-center md:bg-cover bg-fixed`}
         >
           {children}
         </body>
