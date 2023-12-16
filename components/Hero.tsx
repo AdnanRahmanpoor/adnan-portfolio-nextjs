@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import React from 'react';
-import heroImage from '@/public/hero-image.png';
+import heroImage from '@/public/mainIconsdark.svg';
 import { Typewriter, Cursor } from 'react-simple-typewriter';
 import { LoadReveal } from '@/utils/motion';
 
