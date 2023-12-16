@@ -8,7 +8,7 @@ const Projects = () => {
       <div className=' bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'>
         <Link href='#'>
           <Image
-            className='rounded-t-lg'
+            className='rounded-t-lg mx-auto'
             src='/hero-image.png'
             alt=''
             width={240}
