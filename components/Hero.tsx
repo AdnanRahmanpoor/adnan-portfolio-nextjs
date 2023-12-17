@@ -38,7 +38,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className='justify-center items-center pt-5 m-auto mx-20 md:mx-10 md:pr-20'>
+      <div className='justify-center items-center pt-5 m-auto mx-10 md:pr-20'>
         <LoadReveal duration={0.6} delay={1}>
           <Image src={heroImage} alt='web dev'/>
         </LoadReveal>
