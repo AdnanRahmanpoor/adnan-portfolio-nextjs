@@ -6,12 +6,12 @@ import React from 'react';
 const About = () => {
   return (
     <section className='flex flex-col md:flex-row w-full h-screen'>
-      <div className='flex flex-col items-center justify-start w-full pt-6 mx-auto px-20'>
+      <div className='flex flex-col items-center justify-start w-full pt-6 mx-auto px-5 lg:px-20'>
         <h1 className='text-5xl text-neutral-300 font-black'>About Me</h1>
 
         {/* Card */}
         <LoadReveal duration={2} delay={1}>
-          <div className='relative block overflow-hidden rounded-lg border bg-slate-900 bg-opacity-40  border-gray-100 p-4 mt-10 sm:p-6 lg:p-8'>
+          <div className='relative block overflow-hidden rounded-lg border bg-slate-900 bg-opacity-40  border-gray-100 p-4 mt-10  lg:p-8'>
             <span className='absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600'></span>
 
             <div className='sm:flex sm:justify-between sm:gap-4'>
