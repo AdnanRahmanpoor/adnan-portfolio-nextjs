@@ -8,7 +8,7 @@ const Projects = () => {
       <h1 className='text-5xl text-neutral-300 font-black items-center justify-start mx-auto'>
         My Projects
       </h1>
-      <div className='grid grid-cols-1 lg:grid-cols-3 gap-6 mx-5 py-20 landscape:px-20'>
+      <div className='grid grid-cols-1 lg:grid-cols-3 gap-6 mx-5 py-20 landscape:px-10'>
         <div className=' bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'>
           <Link href='#'>
             <Image
@@ -60,9 +60,9 @@ const Projects = () => {
                 >
                   <path
                     stroke='currentColor'
-                    stroke-linecap='round'
-                    stroke-linejoin='round'
-                    stroke-width='2'
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
+                    strokeWidth='2'
                     d='M1 5h12m0 0L9 1m4 4L9 9'
                   />
                 </svg>
@@ -121,9 +121,9 @@ const Projects = () => {
                 >
                   <path
                     stroke='currentColor'
-                    stroke-linecap='round'
-                    stroke-linejoin='round'
-                    stroke-width='2'
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
+                    strokeWidth='2'
                     d='M1 5h12m0 0L9 1m4 4L9 9'
                   />
                 </svg>
@@ -182,9 +182,9 @@ const Projects = () => {
                 >
                   <path
                     stroke='currentColor'
-                    stroke-linecap='round'
-                    stroke-linejoin='round'
-                    stroke-width='2'
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
+                    strokeWidth='2'
                     d='M1 5h12m0 0L9 1m4 4L9 9'
                   />
                 </svg>
