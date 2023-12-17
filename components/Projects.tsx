@@ -4,7 +4,7 @@ import React from 'react';
 
 const Projects = () => {
   return (
-    <section className='flex flex-col w-full h-screen lg:mx-auto max-w-5xl'>
+    <section className='flex flex-col w-full h-full lg:mx-auto max-w-5xl'>
       <h1 className='text-5xl text-neutral-300 font-black items-center justify-start mx-auto'>
         My Projects
       </h1>
