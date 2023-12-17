@@ -8,7 +8,7 @@ const Projects = () => {
       <h1 className='text-5xl text-neutral-300 font-black items-center justify-start mx-auto'>
         My Projects
       </h1>
-      <div className='grid grid-cols-1 lg:grid-cols-3 gap-6 mx-5  py-20'>
+      <div className='grid grid-cols-1 lg:grid-cols-3 gap-6 mx-5 py-20 landscape:px-20'>
         <div className=' bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'>
           <Link href='#'>
             <Image
@@ -73,7 +73,7 @@ const Projects = () => {
         <div className=' bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'>
           <Link href='#'>
             <Image
-              className='rounded-t-lg'
+              className='rounded-t-lg mx-auto'
               src='/hero-image.png'
               alt=''
               width={240}
@@ -134,7 +134,7 @@ const Projects = () => {
         <div className=' bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'>
           <Link href='#'>
             <Image
-              className='rounded-t-lg'
+              className='rounded-t-lg mx-auto'
               src='/hero-image.png'
               alt=''
               width={240}
