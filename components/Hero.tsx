@@ -16,7 +16,7 @@ const Hero = () => {
 
   return (
     <section className='flex flex-col lg:flex-row landscape:flex-row  w-full h-screen'>
-      <div className='flex flex-row items-center justify-center w-full lg:pl-40 pl-16 pt-20 lg:pt-0 landscape:pt-0'>
+      <div className='flex flex-row items-center justify-center mx-auto md:w-full  lg:pl-40 pt-20 lg:pt-0 landscape:pt-0'>
         <div className='h-full w-full flex flex-col landscape:flex-col justify-center m-auto text-start'>
           <LoadReveal duration={1} delay={1}>
             <h1 className='text-gray-600 text-3xl'>Welcome</h1>
