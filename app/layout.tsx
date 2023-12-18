@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang='en'>
       <SmoothScrolling>
         <body
-          className={`${inter.className} bg-[url(/background-mobile.jpg)] bg-cover bg-repeat-y bg-center bg-scroll`}
+          className={`${inter.className} bg-[url(/background-mobile.jpg)] bg-cover bg-repeat-y bg-center bg-scroll overflow-y-scroll`}
         >
             {children}
          

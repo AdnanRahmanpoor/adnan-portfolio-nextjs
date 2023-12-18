@@ -1,13 +1,11 @@
 import { LoadReveal } from '@/utils/motion';
-import Image from 'next/image';
-import Link from 'next/link';
 import React from 'react';
 
 const About = () => {
   return (
     <section className='flex flex-col md:flex-row w-full h-auto mb-20'>
       <div className='flex flex-col items-center justify-start w-full pt-6 mx-auto px-5 lg:px-20'>
-        <h1 className='text-5xl text-neutral-300 font-black'>About Me</h1>
+        <h1 className='text-5xl text-neutral-300 font-black overline'>About Me</h1>
 
         {/* Card */}
         <LoadReveal duration={2} delay={1}>
@@ -17,7 +15,7 @@ const About = () => {
             <div className='sm:flex sm:justify-between sm:gap-4'>
               <div>
                 <h2 className='text-2xl font-bold text-red-400 sm:text-xl'>
-                  Name Name
+                  Adnan Rahmanpoor
                 </h2>
 
                 <p className='mt-1 text-sm font-medium text-gray-600'>
@@ -25,15 +23,6 @@ const About = () => {
                 </p>
               </div>
 
-              {/* <div className='hidden sm:block sm:shrink-0'>
-                <Image
-                  alt=''
-                  src=''
-                  className='h-16 w-16 rounded-lg object-cover shadow-sm'
-                  width={64}
-                  height={64}
-                />
-              </div> */}
             </div>
 
             <div className='mt-4'>
@@ -57,7 +46,7 @@ const About = () => {
                 overtime as I gain more experience.
               </p>{' '}
               <p className='max-w-[60ch] text-md text-gray-300 mt-3'>
-                I also have decent experience in Windows OS and Linux systems. I
+                I love using Windows OS and Linux systems. I
                 also code in <span className='text-sky-500'>Py</span>
                 <span className='text-yellow-400'>thon</span> &{' '}
                 <span className='text-blue-700'>R</span> from time to time and
