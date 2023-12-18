@@ -19,7 +19,7 @@ const Hero = () => {
       <div className='flex flex-row items-center justify-center mx-auto md:w-full  lg:pl-40 pt-20 lg:pt-0 landscape:pt-0'>
         <div className='h-full w-full flex flex-col landscape:flex-col justify-center m-auto text-start'>
           <LoadReveal duration={1} delay={1}>
-            <h1 className='text-gray-600 text-3xl'>Welcome</h1>
+            <h1 className='text-gray-500 text-3xl'>Welcome</h1>
           </LoadReveal>
           <div className='flex flex-col w-auto h-auto'>
             <LoadReveal duration={2} delay={2}>
@@ -41,7 +41,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className='justify-center items-center pt-5 m-auto mx-10 md:pr-20'>
+      <div className='justify-center items-center pt-5 pb-10 m-auto mx-auto md:pr-40'>
         <LoadReveal duration={0.6} delay={1}>
           <Image src={heroImage} alt='web dev' />
         </LoadReveal>
