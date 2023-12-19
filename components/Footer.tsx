@@ -17,7 +17,7 @@ const Footer = () => {
                 <span className='sr-only'>GitHub</span>
 
                 <svg
-                  className='h-8 w-8'
+                  className='h-6 w-6'
                   fill='currentColor'
                   viewBox='0 0 24 24'
                   aria-hidden='true'
@@ -41,7 +41,7 @@ const Footer = () => {
                 <span className='sr-only'>Instagram</span>
 
                 <svg
-                  className='h-8 w-8'
+                  className='h-6 w-6'
                   fill='currentColor'
                   viewBox='0 0 24 24'
                   aria-hidden='true'
@@ -65,7 +65,7 @@ const Footer = () => {
                 <span className='sr-only'>Twitter</span>
 
                 <svg
-                  className='h-8 w-8'
+                  className='h-6 w-6'
                   fill='currentColor'
                   viewBox='0 0 24 24'
                   aria-hidden='true'
