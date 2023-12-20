@@ -5,7 +5,7 @@ import React from 'react';
 const Projects = () => {
   return (
     <section className='flex flex-col w-full h-full lg:mx-auto max-w-5xl'>
-      <h1 className='text-5xl text-neutral-300 font-black items-center justify-start mx-auto overline'>
+      <h1 className='text-5xl text-neutral-300 font-black items-center justify-start mx-auto'>
         My Projects
       </h1>
       <div className='grid grid-cols-1 lg:grid-cols-3 gap-6 mx-5 py-20 landscape:px-10'>
