@@ -36,7 +36,7 @@ const Footer = () => {
                 href='https://www.instagram.com/adnanrahmanpoor'
                 rel='noreferrer'
                 target='_blank'
-                className='text-gray-700 transition hover:opacity-75 hover:text-pink-500'
+                className='text-gray-700 transition hover:opacity-75 hover:text-pink-400'
               >
                 <span className='sr-only'>Instagram</span>
 
