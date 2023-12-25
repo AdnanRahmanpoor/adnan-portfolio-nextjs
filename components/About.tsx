@@ -22,7 +22,6 @@ const About = () => {
                   Web Developer
                 </p>
               </div>
-
             </div>
 
             <div className='mt-4'>
@@ -37,17 +36,17 @@ const About = () => {
                 CSS and Javascript. I use{' '}
                 <span className='text-purple-500'>Bootstrap 5</span> and{' '}
                 <span className='text-sky-400'>TailwindCSS</span> to make the UI
-                creation faster and easier. I started learning{' '}
+                creation faster & responsive. I started learning{' '}
                 <span className='text-blue-700'>ReactJS</span> and recently{' '}
-                <span className='bg-black'>NextJS</span>, which I&apos;ve used to build{' '}
-                <span className='font-bold'>this portfolio site</span> & several
-                other in progress projects. I&apos;m focusing on building simple
-                landing pages for now, & build better and bigger projects
-                overtime as I gain more experience.
+                <span className='bg-black'>NextJS</span>, which I&apos;ve used
+                to build <span className='font-bold'>this portfolio site</span>{' '}
+                & several other in progress projects. I&apos;m focusing on
+                building simple landing pages for now, & build better and bigger
+                projects overtime as I gain more experience.
               </p>{' '}
               <p className='max-w-[60ch] text-md text-gray-300 mt-3'>
-                I love using Windows OS and Linux systems. I
-                also code in <span className='text-sky-500'>Py</span>
+                I love using Windows OS and Linux systems. I also code in{' '}
+                <span className='text-sky-700'>Py</span>
                 <span className='text-yellow-400'>thon</span> &{' '}
                 <span className='text-blue-700'>R</span> from time to time and
                 learn Data Analysis as well.
