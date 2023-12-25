@@ -8,7 +8,7 @@ import { LoadReveal } from '@/utils/motion';
 
 const Hero = () => {
   const text = Typewriter({
-    words: [' ', ' ', 'HTML', 'CSS', 'Bootstrap', 'TailwindCSS', 'Javascript', 'ReactJS', 'NextJS'],
+    words: [' ', ' ', 'HTML', 'CSS', 'Bootstrap', 'TailwindCSS', 'Javascript', 'TypeScript'  , 'ReactJS', 'NextJS'],
     loop: 999,
     typeSpeed: 60,
     deleteSpeed: 30
