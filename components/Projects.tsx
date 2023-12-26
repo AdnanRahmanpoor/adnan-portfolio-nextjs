@@ -266,12 +266,11 @@ const Projects = () => {
           <div className='p-5'>
             <Link href='https://adnan-todo-app.vercel.app/'>
               <h5 className='mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
-                Todo App
+                Todo App (CRUD App)
               </h5>
             </Link>
             <p className='mb-3 font-normal text-gray-700 dark:text-gray-400'>
-              A todo app made in React. Currently allows Adding, Checking,
-              Deleting todos with no localStorage implementation yet.
+              A todo app made in React. Perform CRUD tasks and using localStorage for storing todos..
             </p>
             <div className='flex flex-row mx-auto justify-between content-between'>
               <Link
