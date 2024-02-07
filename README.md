@@ -1,2 +1,2 @@
 # My Personal Portfolio site
-## Made by Next.JS & TailwindCSS
+## Made by Next.JS
