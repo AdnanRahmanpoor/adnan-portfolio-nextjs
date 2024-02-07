@@ -15,7 +15,7 @@ const Hero = () => {
   });
 
   return (
-    <section className='flex flex-col lg:flex-row landscape:flex-row  w-full h-screen max-w-5xl'>
+    <section className='flex flex-col lg:flex-row landscape:flex-row  w-full h-screen lg:mx-auto max-w-7xl'>
       <div className='flex flex-row items-center justify-center mx-auto md:w-full  lg:pl-40 pt-20 lg:pt-0 landscape:pt-0'>
         <div className='h-full w-full flex flex-col landscape:flex-col justify-center m-auto text-start'>
           <LoadReveal duration={1} delay={1}>
